@@ -15,4 +15,7 @@
   .button-links {
     @apply rounded-3xl px-5 py-2 border-2 border-slate-600 text-sm hover:bg-slate-800 hover:text-white hover:border-none;
   }
+  .techstack {
+    @apply border-2 border-solid border-gray-600 px-5 py-2 rounded-3xl bg-red-100;
+  }
 }
