@@ -6,14 +6,14 @@ export default function Projects() {
     <section className="bg-slate-100 w-full mx-auto my-10 ">
       <h1 className="font-bold text-4xl text-center mb-10"> My Projects </h1>
       {/* project 1 */}
-      <div className=" flex justify-between items-center  gap-5 mb-20 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
+      <div className=" flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
         {" "}
         {/* Screenshot of project */}
         <div className="w-full">
           <img
             src="/food-ordering.png"
             alt="food app"
-            className="w-3/4 mx-auto"
+            className="w-full md:w-3/4 mx-auto"
           />
         </div>
         {/* description of the project */}
@@ -49,14 +49,14 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className=" flex justify-between items-center   gap-5 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
+      <div className=" flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
         {" "}
         {/* Screenshot of project */}
         <div className="w-full">
           <img
             src="/expense-tracker.png"
             alt="food app"
-            className="w-3/4 mx-auto"
+            className="w-fullmd:w-3/4 mx-auto"
           />
         </div>
         {/* description of the project */}
