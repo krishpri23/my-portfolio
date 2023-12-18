@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-    <section className="w-3/4 flex flex-col md:flex md:flex-row mx-auto text-indigo-600">
+    <section className="w-full flex flex-col md:flex md:flex-row mx-auto text-indigo-600 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
       <div className="w-full ">
         <img
           src="/kp.png"
