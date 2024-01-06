@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-    <section className="w-full flex flex-col md:flex md:flex-row mx-auto text-indigo-600 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
+    <section className="w-full flex flex-col md:flex md:flex-row mx-auto text-black-600 hover:border-2 hover:border-black-500 rounded-lg px-5 py-3">
       <div className="w-full ">
         <img
           src="/kp.png"
@@ -19,7 +19,7 @@ export default function About() {
           {" "}
           Krishnapriya Somalinga{" "}
         </h1>
-        <h2 className="text-3xl text-indigo-500 font-normal">
+        <h2 className="text-3xl text-black-500 font-normal">
           {" "}
           Frontend Developer{" "}
         </h2>
@@ -27,13 +27,13 @@ export default function About() {
         <div className="flex justify-center items-center  gap-4 text-3xl">
           <Link
             to="/"
-            className="rounded-3xl px-5 py-3 border border-indigo-600 text-sm font-bold hover:bg-indigo-700 hover:text-white  hover:opacity-90 hover:scale-110 duration-400 "
+            className="rounded-3xl px-5 py-3 border border-black-600 text-sm font-bold hover:bg-slate-800 border-slate-800 hover:text-slate-100  hover:opacity-90 hover:scale-110 duration-400 "
           >
             Download CV
           </Link>
           <Link
             to="/"
-            className="rounded-3xl px-5 py-3 border  bg-indigo-600 text-indigo-100 text-sm font-bold hover:bg-indigo-700 hover:text-white  hover:opacity-90 hover:scale-110 duration-400 "
+            className="rounded-3xl px-5 py-3 border  bg-black-600 text-black-100 text-sm font-bold hover:bg-slate-800 border-black hover:text-slate-100  hover:opacity-90 hover:scale-110 duration-400 "
           >
             Contact Info
           </Link>

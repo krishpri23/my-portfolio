@@ -6,7 +6,7 @@ export default function Projects() {
     <section className="bg-slate-100 w-full mx-auto my-10 ">
       <h1 className="font-bold text-4xl text-center mb-10"> My Projects </h1>
       {/* project 1 */}
-      <div className=" flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
+      <div className=" flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-black-500 rounded-lg px-5 py-3">
         {" "}
         {/* Screenshot of project */}
         <div className="w-full">
@@ -37,11 +37,11 @@ export default function Projects() {
           </p>
 
           <div className="flex gap-10 justify-start items-center mt-5">
-            <Link className="techstack  hover:bg-indigo-800 hover:text-indigo-100 ">
+            <Link className="techstack  hover:bg-black-800 hover:text-black-100 ">
               {" "}
               Live Site{" "}
             </Link>
-            <Link className="techstack   hover:bg-indigo-800 hover:text-indigo-100 ">
+            <Link className="techstack   hover:bg-black-800 hover:text-black-100 ">
               {" "}
               View Code{" "}
             </Link>
@@ -49,7 +49,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className=" flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-indigo-500 rounded-lg px-5 py-3">
+      <div className=" flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-black-500 rounded-lg px-5 py-3">
         {" "}
         {/* Screenshot of project */}
         <div className="w-full">
@@ -80,11 +80,11 @@ export default function Projects() {
             <strong> Local Storage </strong>
           </p>
           <div className="flex gap-10 justify-start items-center mt-5">
-            <Link className="techstack  hover:bg-indigo-800 hover:text-indigo-100 ">
+            <Link className="techstack  hover:bg-black-800 hover:text-black-100 ">
               {" "}
               Live Site{" "}
             </Link>
-            <Link className="techstack   hover:bg-indigo-800 hover:text-indigo-100 ">
+            <Link className="techstack   hover:bg-black-800 hover:text-black-100 ">
               {" "}
               View Code{" "}
             </Link>

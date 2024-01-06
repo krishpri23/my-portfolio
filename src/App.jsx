@@ -6,7 +6,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 export default function App() {
   return (
-    <main className="bg-slate-100 text-indigo-600 px-10 ">
+    <main className="bg-slate-100 text-black-600 px-10 ">
       <Router>
         <Header />
         <About />
