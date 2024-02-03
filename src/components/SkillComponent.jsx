@@ -2,7 +2,8 @@ import React from "react";
 
 export default function SkillComponent({ imageSrc, skill }) {
   return (
-    <div className="flex flex-col gap-5 justify-center items-center">
+    // <div className="flex flex-col gap-5 justify-center items-center">
+    <div className="grid gap-3 justify-items-center items-center">
       <img
         src={imageSrc}
         alt={`${skill} logo`}

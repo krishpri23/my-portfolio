@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { ScrollContext } from "../App";
 
-export default function Projects({ projectsRef }) {
+export default function Projects() {
+  const { projectsRef } = useContext(ScrollContext);
+
   return (
     <section className="bg-slate-100 w-full mx-auto my-10 " ref={projectsRef}>
       <h1 className="font-bold text-4xl text-center mb-10"> My Projects </h1>
