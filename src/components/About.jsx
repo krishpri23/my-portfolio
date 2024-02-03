@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import pdf from "/document/resume.pdf";
 
 export default function About() {
   return (
@@ -23,18 +24,15 @@ export default function About() {
         </h2>
         {/* Download CV & Contact Info */}
         <div className="flex justify-center items-center  gap-4 text-3xl">
-          <Link
-            to="/"
+          <a
+            href={pdf}
+            without
+            rel="noopener noreferrer"
+            target="_blank"
             className="rounded-3xl px-5 py-3 border border-black-600 text-sm font-bold hover:bg-slate-800 border-slate-800 hover:text-slate-100  hover:opacity-90 hover:scale-110 duration-400 "
           >
-            Download CV
-          </Link>
-          <Link
-            to="/"
-            className="rounded-3xl px-5 py-3 border  bg-black-600 text-black-100 text-sm font-bold hover:bg-slate-800 border-black hover:text-slate-100  hover:opacity-90 hover:scale-110 duration-400 "
-          >
-            Contact Info
-          </Link>
+            View Resume
+          </a>
         </div>
         {/* social links */}
         <div className="flex flex-row gap-3 mt-5">
