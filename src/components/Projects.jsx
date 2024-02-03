@@ -86,11 +86,17 @@ export default function Projects() {
             <strong> Local Storage </strong>
           </p>
           <div className="flex gap-10 justify-start items-center mt-5">
-            <Link className="techstack  hover:bg-black-800 hover:text-black-100 ">
+            <Link
+              to={"/"}
+              className="techstack  hover:bg-black-800 hover:text-black-100 "
+            >
               {" "}
               Live Site{" "}
             </Link>
-            <Link className="techstack   hover:bg-black-800 hover:text-black-100 ">
+            <Link
+              to={"/"}
+              className="techstack   hover:bg-black-800 hover:text-black-100 "
+            >
               {" "}
               View Code{" "}
             </Link>
