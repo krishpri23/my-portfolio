@@ -1,22 +1,21 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ScrollToSection from "../utils/ScrollToSection";
 
-export default function Header() {
+export default function Header({ skills, projects, about, contact }) {
   return (
     <nav>
       <ul className="w-full flex  gap-10 justify-end items-center py-3 px-5 font-bold text-lg bg-slate-300 ">
-        <Link to="/" className="nav">
-          Home{" "}
-        </Link>
-        <Link to="/" className="nav">
-          About{" "}
-        </Link>
-        <Link to="/" className="nav">
+        <span className="nav">Home </span>
+        <div className="nav" onClick={() => ScrollToSection(skills)}>
+          Skills{" "}
+        </div>
+        <span className="nav">About </span>
+        <div className="nav" onClick={() => ScrollToSection(projects)}>
           Projects{" "}
-        </Link>
-        <Link to="/" className="nav">
+        </div>
+        <span className="nav" onClick={() => ScrollToSection(contact)}>
           Contact{" "}
-        </Link>
+        </span>
       </ul>
     </nav>
   );

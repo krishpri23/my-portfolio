@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export default function Projects() {
+export default function Projects({ projectsRef }) {
   return (
-    <section className="bg-slate-100 w-full mx-auto my-10 ">
+    <section className="bg-slate-100 w-full mx-auto my-10 " ref={projectsRef}>
       <h1 className="font-bold text-4xl text-center mb-10"> My Projects </h1>
       {/* project 1 */}
-      <div className=" flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-black-500 rounded-lg px-5 py-3">
+      <div
+        id="projects"
+        className="flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center  gap-5 mb-20 hover:border-2 hover:border-black-500 rounded-lg px-5 py-3"
+      >
         {" "}
         {/* Screenshot of project */}
         <div className="w-full">
