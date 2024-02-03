@@ -7,5 +7,5 @@
 }
 
 .nav {
-  @apply text-black px-4 py-2 rounded-md hover;
+  @apply text-black px-4 py-2 rounded-md;
 }
