@@ -40,14 +40,24 @@ export default function About() {
         </div>
         {/* social links */}
         <div className="flex flex-row gap-3 mt-5">
-          <Link to="/" className="hover:scale-125  ">
+          <a
+            href="https://www.linkedin.com/in/krishnapriya-amarnath-488124172"
+            target="_blank"
+            className="hover:scale-125  "
+            rel="noopener noreferrer"
+          >
             <AiOutlineLinkedin style={{ fontSize: "200%" }} />
-          </Link>
+          </a>
 
-          <Link to="/" className="hover:scale-125">
+          <a
+            href="https://github.com/krishpri23"
+            target="_blank"
+            className="hover:scale-125"
+            rel="noopener noreferrer"
+          >
             {" "}
             <AiOutlineGithub style={{ fontSize: "200%" }} />
-          </Link>
+          </a>
         </div>
       </div>
     </section>
