@@ -1,7 +1,5 @@
 import React from "react";
-
-import { AiOutlineGithub } from "react-icons/ai";
-import { AiOutlineLinkedin } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 export default function About() {

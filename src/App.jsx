@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import { BrowserRouter } from "react-router-dom";
 import Contact from "./components/Contact";
 import ScrollToTop from "./components/ScrollToTop";
+import Footer from "./components/Footer";
 
 export const ScrollContext = createContext({});
 
@@ -16,7 +17,7 @@ export default function App() {
   const aboutRef = useRef(null);
 
   return (
-    <main className="bg-slate-100 text-black-600 px-10 ">
+    <main className="bg-slate-100 text-black-600 px-3 ">
       <ScrollContext.Provider
         value={{ skillsRef, projectsRef, contactRef, aboutRef }}
       >
@@ -27,6 +28,7 @@ export default function App() {
           <Skills />
           <Projects />
           {/* <Contact contactRef={contactRef} /> */}
+          <Footer />
         </BrowserRouter>
       </ScrollContext.Provider>
     </main>
