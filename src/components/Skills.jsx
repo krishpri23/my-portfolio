@@ -8,7 +8,7 @@ export default function Skills() {
   const { skillsRef } = useContext(ScrollContext);
   return (
     <section
-      className=" flex flex-col gap-10 mx-auto w-full  bg-slate-100  mt-10 hover:border-2 hover:border-black-500 rounded-lg px-5 py-3"
+      className=" flex flex-col gap-10  mx-auto w-full  bg-slate-100  mt-10 hover:border-2 hover:border-black-500 rounded-lg px-5 py-3"
       id="skills"
       ref={skillsRef}
     >
